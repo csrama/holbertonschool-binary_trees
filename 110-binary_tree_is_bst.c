@@ -16,7 +16,7 @@ int _is_bst(const binary_tree_t *tree, int min, int max)
 		return (0);
 
 	return (_is_bst(tree->left, min, tree->n) &&
-	        _is_bst(tree->right, tree->n, max));
+		_is_bst(tree->right, tree->n, max));
 }
 
 /**
