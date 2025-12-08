@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stddef.h>
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -14,10 +15,10 @@
  */
 struct binary_tree_s
 {
-	int n;
-	struct binary_tree_s *parent;
-	struct binary_tree_s *left;
-	struct binary_tree_s *right;
+        int n;
+        struct binary_tree_s *parent;
+        struct binary_tree_s *left;
+        struct binary_tree_s *right;
 };
 
 /* Typedefs for various tree types */
@@ -40,8 +41,5 @@ size_t binary_tree_height(const binary_tree_t *tree);
 size_t binary_tree_depth(const binary_tree_t *tree);
 size_t binary_tree_size(const binary_tree_t *tree);
 size_t binary_tree_leaves(const binary_tree_t *tree);
-/* Provided function for visualization (do not push) */
-void binary_tree_print(const binary_tree_t *tree);
-
-#endif /* BINARY_TREES_H */
+size_t binary_tree_nodes(const binary_tree_t *tree); /* ← Task 13 */
 
