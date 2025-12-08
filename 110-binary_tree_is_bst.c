@@ -1,5 +1,12 @@
 #include "binary_trees.h"
 
+/**
+ * _is_bst - Helper function to check if a tree is BST within limits
+ * @tree: Pointer to node
+ * @min: Minimum allowed value
+ * @max: Maximum allowed value
+ * Return: 1 if BST, 0 otherwise
+ */
 int _is_bst(const binary_tree_t *tree, int min, int max)
 {
 	if (!tree)
