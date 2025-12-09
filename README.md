@@ -1,5 +1,6 @@
 Binary Trees Project
-📋 Project Overview
+
+//*📋 Project Overview*//
 This project implements a comprehensive binary tree data structure in C, following the ALX/Holberton curriculum. It includes various operations and traversal algorithms for binary trees.
 
 🎯 Learning Objectives
