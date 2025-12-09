@@ -1,4 +1,4 @@
-# Binary Trees Project
+📄# Binary Trees Project
 
 ## Project Overview
 This project implements a comprehensive binary tree data structure in C,
