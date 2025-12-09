@@ -15,8 +15,6 @@ void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int))
 	if (tree == NULL || func == NULL)
 		return;
 
-	/* Estimate queue size based on tree height (worst-case 2^height - 1) */
-	/* For simplicity, allocate for 1024 nodes which should be enough */
 	size = 1024;
 	queue = malloc(sizeof(binary_tree_t *) * size);
 	if (queue == NULL)
@@ -33,7 +31,6 @@ void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int))
 		{
 			if (rear >= size)
 			{
-				/* Resize queue if needed */
 				size *= 2;
 				queue = realloc(queue, sizeof(binary_tree_t *) * size);
 				if (queue == NULL)
