@@ -19,7 +19,7 @@ int _is_bst(const binary_tree_t *tree, int min, int max)
 		_is_bst(tree->right, tree->n, max));
 }
 
-/**
+  /**
  * binary_tree_is_bst - Checks if a binary tree is a valid BST
  * @tree: Pointer to root node
  * Return: 1 if valid BST, 0 otherwise
