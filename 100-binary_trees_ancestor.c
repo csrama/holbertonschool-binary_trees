@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/**
+  /**
  * binary_trees_ancestor - finds the lowest common ancestor
  * @first: pointer to the first node
  * @second: pointer to the second node
