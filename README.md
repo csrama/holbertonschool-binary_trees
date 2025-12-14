@@ -1,10 +1,13 @@
 🌳 Binary Trees: The Forest of Data Structures 🌲
 📋 Quick Overview
-Binary Tree = Each node has ≤ 2 children (Left & Right). Think of it as a family tree where each parent can have at most 2 kids!
+Binary Tree = Each node has ≤ 2 children (Left & Right).
+Think of it as a family tree where each parent can have at most 2 kids!
 
 ⚡ Why Use Binary Trees?
+
 Data Structure Search Insert Delete
 Linked List 🐌 O(n) ⚡ O(1) 🐌 O(n)
+
 Balanced Binary Tree ⚡ O(log n) ⚡ O(log n) ⚡ O(log n)
 Unbalanced Tree 🐌 O(n) 🐌 O(n) 🐌 O(n)
 Pro Tip: Keep your trees balanced for maximum speed! 🚀
@@ -23,18 +26,22 @@ text
 🚶 4 Ways to Walk Through Your Tree
 c
 // 1️⃣ PRE-ORDER: Root → Left → Right
+
 // (Like reading a book: Chapter → Section → Subsection)
 
 // 2️⃣ IN-ORDER: Left → Root → Right  
+
 // (Gives SORTED output for Binary Search Trees! ✨)
 
 // 3️⃣ POST-ORDER: Left → Right → Root
+
 // (Delete children before parent 🧹)
 
 // 4️⃣ LEVEL-ORDER: Row by row (BFS style)
 🎯 Tree Type Cheat Sheet
 Type Rule Visual
 ✅ Complete All levels full except last, left-packedtext
+
   🌳
  /  \
 🍁   🍁
